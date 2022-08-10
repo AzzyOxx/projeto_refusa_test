@@ -1,0 +1,50 @@
+{
+    "users": [
+        {
+            "userId": 1,
+            "user": "felipe",
+			"password": "12345",
+            "name": "Felipe Alcântara"						
+        },
+        {
+            "userId": 2,
+            "user": "antony",
+			"password": "54321",
+            "name": "Antony Miguel"			
+        }
+    ],
+	"posts": [
+		{
+			"postId": 1,
+			"userId": 1,
+			"likeCounter": [],
+			"disLikeCounter": [],
+			"description": "description description description description description description description description description",
+			"modelo": "text exemple",
+			"year": 0,
+			"color": "white",
+			"manual/automatic": "manual",
+			"sell": "sim",
+			"rent": "não",
+			"value": 60000,
+			"image": ""
+		},
+		{
+			"postId": 2,
+			"userId": 2,
+			"likeCounter": [],
+			"disLikeCounter": [],
+			"description": "description description description description description description description description description",
+			"modelo": "text exemple",
+			"year": 0,
+			"color": "white",
+			"manual/automatic": "manual",
+			"sell": "sim",
+			"rent": "não",
+			"value": 60000,
+			"image": ""
+		}
+	],
+	"replies": [],
+	"likes": []
+}
