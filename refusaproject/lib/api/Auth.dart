@@ -44,7 +44,7 @@ class User {
 }
 
 class Auth {
-  static Future login(email, password, BuildContext context) async {
+  static Future<User> login(email, password, BuildContext context) async {
     //final _auth = FirebaseAuth.instance;
     //var url = Uri.http('http://127.0.0.1:3000', '/users');
     //var url = Uri.http('localhost:3000', '/users');
